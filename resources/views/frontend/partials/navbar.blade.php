@@ -87,30 +87,32 @@
         </div>
     </nav>
 
-    <ul class="sidenav" id="mobile-demo">
-        <li class="{{ Request::is('/') ? 'active' : '' }}">
-            <a href="{{ route('home') }}">Home</a>
-        </li>
 
-        <li class="{{ Request::is('property*') ? 'active' : '' }}">
-            <a href="{{ route('property') }}">Properties</a>
-        </li>
-
-        <li class="{{ Request::is('agents*') ? 'active' : '' }}">
-            <a href="{{ route('agents') }}">Agents</a>
-        </li>
-
-        <li class="{{ Request::is('gallery') ? 'active' : '' }}">
-            <a href="{{ route('gallery') }}">Gallery</a>
-        </li>
-
-        <li class="{{ Request::is('blog*') ? 'active' : '' }}">
-            <a href="{{ route('blog') }}">Blog</a>
-        </li>
-
-        <li class="{{ Request::is('contact') ? 'active' : '' }}">
-            <a href="{{ route('contact') }}">Contact</a>
-        </li>
-    </ul>
 
 </div>
+
+<ul class="sidenav" id="mobile-demo">
+    <li class="{{ Request::is('/') ? 'active' : '' }}">
+        <a href="{{ route('home') }}">Home</a>
+    </li>
+
+    <li class="{{ Request::is('property*') ? 'active' : '' }}">
+        <a href="{{ route('property') }}">Properties</a>
+    </li>
+
+    <li class="{{ Request::is('agents*') ? 'active' : '' }}">
+        <a href="{{ route('agents') }}">Agents</a>
+    </li>
+
+    <li class="{{ Request::is('gallery') ? 'active' : '' }}">
+        <a href="{{ route('gallery') }}">Gallery</a>
+    </li>
+
+    <li class="{{ Request::is('blog*') ? 'active' : '' }}">
+        <a href="{{ route('blog') }}">Blog</a>
+    </li>
+
+    <li class="{{ Request::is('contact') ? 'active' : '' }}">
+        <a href="{{ route('contact') }}">Contact</a>
+    </li>
+</ul>
