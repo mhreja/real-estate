@@ -1,0 +1,19 @@
+/node_modules
+/storage/*.key
+/vendor
+.env
+# .htaccess
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+/public/storage
+/public/mix-manifest.json
+/public/sitemap.xml
+package-lock.json
+composer.lock
+.brackets.json
+.DS_Store
+.idea
+.vscode
